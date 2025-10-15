@@ -1,0 +1,9 @@
+{
+    "steps": [
+      {"name":"resize","params":{"width":800}},
+      {"name":"rotate","params":{"angle":10}},
+      {"name":"watermark","params":{"text":"MyJSWorkflow","size":36,"color":"white","opacity":0.5}},
+      {"name":"save","params":{"format":"jpeg","quality":85}}
+    ]
+  }
+  
