@@ -42,7 +42,9 @@ Or, with auto-reload using nodemon:
 
 npx nodemon index.js
 
-Replace "pic.jpeg" with your file name to submit a new job:
+In the example below, replace "pic.jpeg" with your file name to submit a new job. Remember to replace steps by mimicking the samples in the sample_spec.json file. This will get your desired image distortion. 
+
+Example:
 
 curl -X POST http://localhost:3000/submit \
   -F "file=@pic.jpeg" \
